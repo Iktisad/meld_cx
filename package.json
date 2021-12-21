@@ -1,0 +1,33 @@
+{
+  "name": "meld_cx",
+  "version": "1.0.0",
+  "description": "JavaScript Developer Code Test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./src/addon.js",
+    "test": "jest",
+    "build": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shihab-Chowdhury/js_dev_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Shihab-Chowdhury/js_dev_test/issues"
+  },
+  "homepage": "https://github.com/Shihab-Chowdhury/js_dev_test#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
